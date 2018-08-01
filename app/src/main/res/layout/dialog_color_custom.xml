@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Chose Color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:background="#BDBDBD"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/ibtn_color_white"
+            android:background="@null"
+            android:src="@drawable/ic_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/ibtn_color_blue"
+            android:background="@null"
+            android:src="@drawable/ic_blue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/ibtn_color_yellow"
+            android:background="@null"
+            android:src="@drawable/ic_yellow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/ibtn_color_orange"
+            android:background="@null"
+            android:src="@drawable/ic_orange"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
